@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./img/banniereNature.jpg" alt="" width="800" height="200">
+        </div>
+        <h1>Bienvenue sur mon site !</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="#"></a>Blog</li>
+                <li><a href="#"></a>Galerie</li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <form action="myPhpFile.php" method="post">
+            <fieldset>
+                <legend>Contact</legend>
+                <div>
+                    <label for="userName">Votre nom :<span style="color:#ff0000">*</span></label>
+                    <input type="text" name="userName" id="userName" required placeholder="Ex : Jean Martin" minlength="2" maxlength="20">
+                </div>
+                <div>
+                    <label for="userEmail">Votre email :<span style="color:#ff0000">*</span></label>
+                    <input type="text" name="userEmail" id="userEmail" required placeholder="Ex : jeanmartin@yahoo.fr">
+                </div>
+                <label for="userComment">Laissez nous un commentaire :</label>
+                <div>
+                    <textarea name="userComment" id="userComment" cols="70" rows="10" placeholder="Voici mon avis"></textarea>
+                </div>
+                <div>
+                    <label for="">Envoyer une copie par E-mail</label>
+                    <input type="checkbox" checked>
+                </div>
+                <div>
+                    <label for=""></label>
+                    <input type="button" value="submit">
+                    <label for=""></label>
+                    <input type="button" value="reset">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="https://github.com/" target="blank">Github</a></li>
+            <li><a href="https://www.youtube.com/" target="blank">Youtube</a></li>
+            <li><a href="https://www.google.com/" target="blank">Google</a></li>
+            <li><a href="https://www.cssdebutant.com" target="blank">cssdebutant</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    background-image: url(/backround_img_cuisine.jpg);
+    background-size: cover;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium';
+    background-color: whitesmoke;
+    font-size: 3em;
+    text-shadow: lightgrey 5px 5px;
+    border-radius: 30px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    background-color: whitesmoke;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+h2, h3{
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS';
+    text-shadow: black 1px 1px;
+    color: lightslategray;
+}
+
+#cookieImg{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    font-size: 1.2em;
+    list-style: square;
+}
